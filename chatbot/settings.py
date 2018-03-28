@@ -33,7 +33,7 @@ LINE_CHANNEL_SECRET = get_env_variable('LINE_CHANNEL_SECRET')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
