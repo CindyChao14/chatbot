@@ -17,7 +17,7 @@ import os
 
 from chatbot.get_env import get_env_variable
 
-BASE_DIR = os.environ['BASE_DIR']
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = get_env_variable('SECRET_KEY')
 LINE_CHANNEL_ACCESS_TOKEN = get_env_variable('LINE_CHANNEL_ACCESS_TOKEN')
