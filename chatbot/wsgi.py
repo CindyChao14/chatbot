@@ -15,6 +15,7 @@ if BASE_DIR not in sys.path:
 
 # import env
 os.environ['COLLECTIVE_NAME'] = 'wsgi'
+os.environ["DJANGO_SETTINGS_MODULE"] = "chatbot.settings"
 #os.environ['LOG_CONFIG'] = os.path.join(BASE_DIR, os.environ['CONF'], 'log.wsgi.conf')
 
 
