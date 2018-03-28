@@ -6,6 +6,6 @@ from django.conf.urls import url
 from chatbot.echobot import views
 
 urlpatterns = [
-    url("^$", views.index),
-    url('^callback/', views.callback),
+    url(r"^$", views.index),
+    url(r'^callback/', views.callback),
 ]
