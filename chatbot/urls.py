@@ -13,7 +13,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
-from mychatbot.echobot import urls as echobot
+from chatbot.echobot import urls as echobot
 
 urlpatterns = [
     url(r'^echobot/', include(echobot))
