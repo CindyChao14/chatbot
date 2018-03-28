@@ -1,5 +1,4 @@
-import os
-from .settings import *
+from chatbot.settings import *
 
 
 def load_config(confile):
