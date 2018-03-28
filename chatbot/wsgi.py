@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if BASE_DIR not in sys.path:
     sys.path.append(BASE_DIR)
 
-import env
+# import env
 os.environ['COLLECTIVE_NAME'] = 'wsgi'
 #os.environ['LOG_CONFIG'] = os.path.join(BASE_DIR, os.environ['CONF'], 'log.wsgi.conf')
 
